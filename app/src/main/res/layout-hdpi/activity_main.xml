@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ramatsolucoes.rafah.sid.Activity.MainActivity">
+
+            <Button
+                android:id="@+id/btn_consultaDoacoes"
+                android:layout_width="@dimen/tam_botao_padrao"
+                android:layout_height="@dimen/altura_botao"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margem_top_botao1_hdpi"
+                android:text="@string/btn_cliente"
+                android:textColor="@color/texto_botoes"
+                android:textSize="@dimen/texto_botoes"
+                android:theme="@style/botaoPadrao"
+                android:elevation="16dp"/>
+
+            <Button
+                android:id="@+id/btn_doacoes"
+                android:layout_width="@dimen/tam_botao_padrao"
+                android:layout_height="@dimen/altura_botao"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_doacoes"
+                android:textColor="@color/texto_botoes"
+                android:textSize="@dimen/texto_botoes"
+                android:layout_marginTop="@dimen/margem_top_botao2_hdpi"
+                android:theme="@style/botaoPadrao" />
+
+            <Button
+                android:id="@+id/btn_faleconosco"
+                android:layout_width="@dimen/tam_botao_padrao"
+                android:layout_height="@dimen/altura_botao"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_fale_conosco"
+                android:textColor="@color/texto_botoes"
+                android:textSize="@dimen/texto_botoes"
+                android:layout_marginTop="@dimen/margem_top_botao3_hdpi"
+                android:theme="@style/botaoPadrao"/>
+
+            <Button
+                android:id="@+id/btn_sair"
+                android:layout_width="@dimen/tam_botao_padrao"
+                android:layout_height="@dimen/altura_botao"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margem_top_botao4_hdpi"
+                android:text="@string/btn_sair"
+                android:textColor="@color/texto_botoes"
+                android:textSize="@dimen/texto_botoes"
+                android:theme="@style/botaoPadrao"/>
+
+</FrameLayout>

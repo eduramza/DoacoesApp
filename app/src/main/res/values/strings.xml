@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DoaçõesApp</string>
+    <string name="btn_cliente">Consultar Doações</string>
+    <string name="btn_doacoes">Cadastrar Doações</string>
+    <string name="btn_sair">Sair</string>
+    <string name="title_activity_doacoes">Cadastro de Doações</string>
+    <string name="hint_nome">Doador</string>
+    <string name="hint_valor">Valor</string>
+    <string name="hint_email">E-mail do doador</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_data">Data</string>
+    <string name="hint_observacoes">Informações adicionais</string>
+    <string name="bt_salvar">Salvar</string>
+    <string name="toolbar_doacoes">Doações</string>
+    <string name="title_activity_consulta">Consultas</string>
+    <string name="edits_vazios">Campo não pode estar vazio</string>
+    <string name="btn_fale_conosco">Fale Conosco</string>
+    <string name="title_activity_dados">Dados das Doações</string>
+    <string name="marca">Desenvolvido por Eduardo Brandão</string>
+    <string name="alert_ok">Que Deus te dê em dobro!</string>
+    <string name="alert_erro">Desculpe! Não possivel cadastrar a doação, verifique os erros</string>
+
+    <!-- TELA DE DADOS -->
+    <string name="info_nome">Nome do doador</string>
+
+</resources>

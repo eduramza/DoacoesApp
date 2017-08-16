@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#d32f2f</color>
+    <color name="colorAccent">#1de9b6</color>
+    <color name="texto_botoes">#fff</color>
+    <color name="efeito_click_botao">#FFCDD2</color>
+    <color name="linha_lista">#F8BBD0</color>
+</resources>

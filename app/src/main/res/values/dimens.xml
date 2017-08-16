@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margem_top_botao1_hdpi">50dp</dimen>
+    <dimen name="margem_top_botao2_hdpi">140dp</dimen>
+    <dimen name="margem_top_botao3_hdpi">230dp</dimen>
+    <dimen name="margem_top_botao4_hdpi">320dp</dimen>
+
+    <dimen name="margem_top_botao1">100dp</dimen>
+    <dimen name="margem_top_botao2">200dp</dimen>
+    <dimen name="margem_top_botao3">300dp</dimen>
+    <dimen name="margem_top_botao4">400dp</dimen>
+    <dimen name="tam_botao_padrao">250dp</dimen>
+    <dimen name="texto_botoes">21sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="titulos">30sp</dimen>
+    <dimen name="padding_titulos">10dp</dimen>
+    <dimen name="padding_lledits">15dp</dimen>
+    <dimen name="margens_edits_top">20dp</dimen>
+    <dimen name="texto_edits">23sp</dimen>
+    <dimen name="altura_botao">70dp</dimen>
+    <dimen name="tam_id_lista">60sp</dimen>
+    <dimen name="tam_nome_lista">26sp</dimen>
+    <dimen name="tam_val_lista">22sp</dimen>
+
+    <!-- TELA DE DADOS -->
+    <dimen name="tam_text_informativo">26sp</dimen>
+    <dimen name="tam_text_banco">21sp</dimen>
+    <dimen name="margem_tv_dados">25dp</dimen>
+    <dimen name="marg_tv_tops">20dp</dimen>
+</resources>

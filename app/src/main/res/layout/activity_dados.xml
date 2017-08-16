@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ramatsolucoes.rafah.sid.Activity.DadosActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbdados"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- SERÁ UTILIZADO NA IMPLEMENTAÇÃO DE FOTO, PORÉM AINDA NÃO ESTÁ ATIVA
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:elevation="8dp"
+        android:baselineAlignBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" /> -->
+
+        <ScrollView
+            android:id="@+id/svDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appBarLayout">
+
+            <LinearLayout
+                android:id="@+id/llDados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_nome"
+                    android:textSize="@dimen/tam_text_informativo" />
+
+                <TextView
+                    android:id="@+id/tvNomeDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tam_text_banco"
+                    android:layout_marginLeft="@dimen/margem_tv_dados"
+                    android:textColor="@android:color/black"
+                    android:gravity="bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_cpf"
+                    android:textSize="@dimen/tam_text_informativo"
+                    android:layout_marginTop="@dimen/marg_tv_tops" />
+
+                <TextView
+                    android:id="@+id/tvCPFDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tam_text_banco"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/margem_tv_dados"
+                    android:gravity="bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_valor"
+                    android:textSize="@dimen/tam_text_informativo"
+                    android:layout_marginTop="@dimen/marg_tv_tops"/>
+
+                <TextView
+                    android:id="@+id/tvValorDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tam_text_banco"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/margem_tv_dados"
+                    android:gravity="bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_email"
+                    android:textSize="@dimen/tam_text_informativo"
+                    android:layout_marginTop="@dimen/marg_tv_tops"/>
+
+                <TextView
+                    android:id="@+id/tvEmailDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tam_text_banco"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/margem_tv_dados"
+                    android:gravity="bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_telefone"
+                    android:textSize="@dimen/tam_text_informativo"
+                    android:layout_marginTop="@dimen/marg_tv_tops"/>
+
+                <TextView
+                    android:id="@+id/tvTelefoneDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tam_text_banco"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/margem_tv_dados"
+                    android:gravity="bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_data"
+                    android:textSize="@dimen/tam_text_informativo"
+                    android:layout_marginTop="@dimen/marg_tv_tops"/>
+
+                <TextView
+                    android:id="@+id/tvDataDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tam_text_banco"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/margem_tv_dados"
+                    android:gravity="bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_observacoes"
+                    android:textSize="@dimen/tam_text_informativo"
+                    android:layout_marginTop="@dimen/marg_tv_tops"/>
+
+                <TextView
+                    android:id="@+id/tvObservacoesDados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tam_text_banco"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/margem_tv_dados"
+                    android:gravity="bottom"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

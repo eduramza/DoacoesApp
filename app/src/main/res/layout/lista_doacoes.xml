@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/etID"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="bottom"
+        android:text="1"
+        android:textSize="@dimen/tam_id_lista"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/lldetalhes"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/etID"
+        android:layout_toEndOf="@+id/etID">
+
+        <TextView
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Eduardo Rafael M Brandao"
+            android:textSize="@dimen/tam_nome_lista"
+            android:gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/etValor"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="R$ 10000,00"
+            android:textSize="@dimen/tam_val_lista"/>
+    </LinearLayout>
+
+</RelativeLayout>
